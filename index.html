@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+ 
+    <div class="informe">
+        <h1>
+            Bienvenidos a WaterPush
+        </h1>
+    </div>
+    <section class="container">
+     
+        <form class="formulario">
+            <label for="edad">
+                Ingresa tu edad
+                <input type="number" id="edad" min="1" max="60"/>
+
+            </label>
+            <br>
+            <button onclick="obtenerEdad()" id="submit" type="button">Enviar</button>
+            
+            <div id="caja"></div>
+            
+        </form>
+        
+    </section>
+    <script src="main.js"></script>
+</body>
+</html>
